@@ -1,0 +1,112 @@
+
+Sat Jul 11 2015 14:24:08 GMT-0400 (EDT)
+
+Operating System
+  Name                        = Mac OS X
+  Version                     = 10.10.4
+  Architecture                = 64bit
+  # CPUs                      = 8
+  Memory                      = 17179869184
+
+Node.js
+  Node.js Version             = 0.10.13
+  npm Version                 = 1.3.2
+
+Titanium CLI
+  CLI Version                 = 4.0.1
+
+Titanium SDK
+  SDK Version                 = 4.1.0.GA
+  SDK Path                    = /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA
+  Target Platform             = iphone
+
+Command
+  /usr/local/bin/node /Users/ryankbacka/.appcelerator/install/4.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 4.1.0.GA --project-dir /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1 --target simulator --ios-version 8.4 --device-family universal --deploy-type development --sim-type ipad --sim-version 8.4 --device-id 70E3F116-8E6E-4B1F-8FE6-D328815E42DF --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 50069 --plugin-paths /Users/ryankbacka/.appcelerator/install/4.1.0/package/node_modules --config-file /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/build-1436639045844.json --no-banner
+
+[DEBUG]  Detecting modules in /Users/ryankbacka/Library/Application Support/Titanium/modules
+[DEBUG]  Detected android module: com.appcelerator.apm 1.1.1 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected android module: facebook 3.0.2 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/android/facebook/3.0.2
+[DEBUG]  Detected android module: facebook 4.0.5 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/android/facebook/4.0.5
+[DEBUG]  Detected android module: ti.cloudpush 3.3.0 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.3.0
+[DEBUG]  Detected android module: ti.cloudpush 3.3.8 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/android/ti.cloudpush/3.3.8
+[DEBUG]  Detected android module: ti.map 2.1.4 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/android/ti.map/2.1.4
+[DEBUG]  Detected android module: ti.map 2.3.1 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/android/ti.map/2.3.1
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.5 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.5
+[DEBUG]  Detected commonjs module: ti.cloud 3.2.9 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/commonjs/ti.cloud/3.2.9
+[DEBUG]  Detected iphone module: com.appcelerator.apm 1.1.1 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/iphone/com.appcelerator.apm/1.1.1
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 1.0.1 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/1.0.1
+[DEBUG]  Detected iphone module: com.appcelerator.urlSession 1.1.1 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/iphone/com.appcelerator.urlSession/1.1.1
+[DEBUG]  Detected iphone module: facebook 3.1.1 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/iphone/facebook/3.1.1
+[DEBUG]  Detected iphone module: facebook 4.0.5 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/iphone/facebook/4.0.5
+[DEBUG]  Detected iphone module: ti.coremotion 1.0.1 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/iphone/ti.coremotion/1.0.1
+[DEBUG]  Detected iphone module: ti.coremotion 1.1.0 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/iphone/ti.coremotion/1.1.0
+[DEBUG]  Detected iphone module: ti.map 2.0.4 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/iphone/ti.map/2.0.4
+[DEBUG]  Detected iphone module: ti.map 2.3.1 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/iphone/ti.map/2.3.1
+[DEBUG]  Detected iphone module: ti.touchid 1.0 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.0
+[DEBUG]  Detected iphone module: ti.touchid 1.1.0 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/iphone/ti.touchid/1.1.0
+[DEBUG]  No project level plugins to load
+[DEBUG]  Titanium SDK iOS directory: /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/iphone
+[INFO]   Deploy type: development
+[INFO]   Building for target: simulator
+[INFO]   Building using iOS SDK: 8.4
+[INFO]   Building for iOS Simulator: iPad 2
+[DEBUG]  UDID: 70E3F116-8E6E-4B1F-8FE6-D328815E42DF
+[DEBUG]  Simulator type: ipad
+[DEBUG]  Simulator version: 8.4
+[INFO]   Building for device family: universal
+[DEBUG]  Setting Xcode target to Debug
+[DEBUG]  Setting Xcode build OS to iphonesimulator8.4
+[DEBUG]  Xcode installation: /Applications/Xcode.app/Contents/Developer
+[DEBUG]  iOS WWDR certificate: installed
+[INFO]   Minimum iOS version: 7.0
+[INFO]   Debugging disabled
+[INFO]   Profiler disabled
+[INFO]   Initiating prepare phase
+[INFO]   Updating Xcode project configuration: project.xcconfig
+[DEBUG]  Setting Info.plist CFBundleVersion to 1.0
+[DEBUG]  Setting Info.plist CFBundleShortVersionString to 1.0
+[DEBUG]  Copying /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/iphone/appicon.png => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app/appicon.png
+[INFO]   Initiating Xcode pre-compile phase
+[DEBUG]  Symlinking /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/KS_nav_ui.png => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app/KS_nav_ui.png
+[DEBUG]  Symlinking /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/KS_nav_views.png => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app/KS_nav_views.png
+[DEBUG]  Ignoring /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/android
+[DEBUG]  Ignoring /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/iphone
+[DEBUG]  Copying /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/iphone/Default-568h@2x.png => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app/Default-568h@2x.png
+[DEBUG]  Copying /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/iphone/Default-667h@2x.png => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app/Default-667h@2x.png
+[DEBUG]  Copying /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/iphone/Default-Landscape-736h@3x.png => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app/Default-Landscape-736h@3x.png
+[DEBUG]  Copying /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/iphone/Default-Landscape.png => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app/Default-Landscape.png
+[DEBUG]  Copying /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/iphone/Default-Landscape@2x.png => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app/Default-Landscape@2x.png
+[DEBUG]  Copying /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/iphone/Default-Portrait-736h@3x.png => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app/Default-Portrait-736h@3x.png
+[DEBUG]  Copying /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/iphone/Default-Portrait.png => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app/Default-Portrait.png
+[DEBUG]  Copying /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/iphone/Default-Portrait@2x.png => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app/Default-Portrait@2x.png
+[DEBUG]  Copying /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/iphone/Default.png => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app/Default.png
+[DEBUG]  Copying /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/iphone/Default@2x.png => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app/Default@2x.png
+[DEBUG]  Copying /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/iphone/appicon.png => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app/appicon.png
+[INFO]   Processing JavaScript files
+[DEBUG]  Symlinking /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/app.js => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app/app.js
+[DEBUG]  Symlinking /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/geo.js => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app/geo.js
+[DEBUG]  Symlinking /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/network.js => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app/network.js
+[DEBUG]  Symlinking /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/win.js => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app/win.js
+[INFO]   Processing Titanium namespace resources
+[DEBUG]  Copying /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/iphone/modules/ui/images => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app/modules/ui/images
+[INFO]   Skipping xcodebuild
+[INFO]   Finished building the application in 174ms
+[INFO]   Launching iOS Simulator
+[DEBUG]  [ioslib] Removing old log file: /Users/ryankbacka/Library/Developer/CoreSimulator/Devices/70E3F116-8E6E-4B1F-8FE6-D328815E42DF/data/Containers/Data/Application/601F49C9-9AD6-4B54-B4C5-FC50BC7C8196/Documents/23774ca3-8843-493c-9888-3312794a0de1.log
+[DEBUG]  [ioslib] Executing: /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/node_modules/ioslib/lib/ios-sim "launch" "/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app" "--verbose" "--xcode-dir" "/Applications/Xcode.app/Contents/Developer" "--udid" "70E3F116-8E6E-4B1F-8FE6-D328815E42DF" "--timeout" "180"
+[DEBUG]  [ioslib] Executing: osascript "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/node_modules/ioslib/lib/iphone_sim_activate.scpt" "/Applications/Xcode.app/Contents/Developer/Applications/iOS Simulator.app"
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] App Spec: <DTiPhoneSimulatorApplicationSpecifier 0x7feae6b6adc0> specified by app path /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] SDK Root: <DTiPhoneSimulatorSystemRoot 0x7feae3d069d0> path=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Creating named pipe at `/var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T//ios-sim-stderr-pipe-1436639048'
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Creating named pipe at `/var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T//ios-sim-stdout-pipe-1436639048'
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] using device family iphone
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing C8A72580-ADAF-47F6-A2D3-F77DD07B6B8F == 70E3F116-8E6E-4B1F-8FE6-D328815E42DF
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing 161A768C-1479-4EC4-A64C-0ADC94143CF3 == 70E3F116-8E6E-4B1F-8FE6-D328815E42DF
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing B7331FE7-1222-486F-95C0-AC5BD73BA058 == 70E3F116-8E6E-4B1F-8FE6-D328815E42DF
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing 0C207E7A-7810-4A48-9A7B-AC8A61BB3E8E == 70E3F116-8E6E-4B1F-8FE6-D328815E42DF
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing 3DB3DC56-165F-44C7-87B2-EA7CCE465607 == 70E3F116-8E6E-4B1F-8FE6-D328815E42DF
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing 70E3F116-8E6E-4B1F-8FE6-D328815E42DF == 70E3F116-8E6E-4B1F-8FE6-D328815E42DF
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] set device to : iPad 2
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Session started
+[DEBUG]  [ioslib] Found application log file: /Users/ryankbacka/Library/Developer/CoreSimulator/Devices/70E3F116-8E6E-4B1F-8FE6-D328815E42DF/data/Containers/Data/Application/71F75B41-3B89-4582-8535-C56E98029789/Documents/23774ca3-8843-493c-9888-3312794a0de1.log
+[INFO]   Project built successfully in 4s 84ms

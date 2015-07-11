@@ -1,0 +1,12 @@
+var getGeo =  function() {
+		Ti.Geoloaction.purpose = "Your location is needed to get your weather forecast.";
+		Ti.Geolocation.getCurrentPosition(function(a){
+			console.log(a);
+			var lat = a.cords.latitude,
+			    lng = a.cords.longitude;
+			console.log(lat, lng);
+			ui.buildUi(lat, lng);
+		});
+};
+
+exports.getGeo = getGeo;
