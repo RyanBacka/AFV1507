@@ -8,9 +8,6 @@ var title = Ti.UI.createLabel({
 	top: 20
 });
 
-var geo = require("geo");
-var net = require("network");
-
 var buildGeoUi = function(lat, lng){
 	console.log(lat, lng);
 	mainWin.add(Ti.UI.createLabel({
@@ -23,42 +20,56 @@ var buildGeoUi = function(lat, lng){
 	}));
 };
 
-var buildUi = function(weatherData){
+var buildUi = function(forecast, location){
 	mainWin.add(Ti.UI.createLabel({
-		text: net.forecast.simpleforecast.forecastday.high.fahrenheit,
-		top: 20,
-		left: 20
-	}));
-	mainWin.add(Ti.UI.createLabel({
-		text: net.forecast.simpleforecast.forecastday.low.fahrenheit,
-		top: 20,
-		left: 60
-	}));
-	mainWin.add(Ti.UI.createLabel({
-		text: net.location.city,
+		text: location.city + ", " + location.state + " (" + location.zip +")",
 		top: 40,
 		left: 20
 	}));
-	mainWin.add(Ti.UI.createLabel({
-		text: net.location.state,
-		top:40,
-		left: 60
-	}));
-	mainWin.add(Ti.UI.createLabel({
-		text: net.forecast.simpleforecast.forecastday.date.pretty,
+	var currentView = Ti.UI.createView({
+		top: 80,
+		left:20,
+		width: 510,
+		height: 240,
+		backgroundColor: "#fff"
+	});
+		
+		currentView.add(Ti.UI.createLabel({
+			text: "Current Weather: ",
+			top: 20,
+			left: 20
+		}));
+		currentView.add(Ti.UI.createLabel({
+			text: forecast.weather,
+			top: 110,
+			left: 60
+		}));
+		currentView.add(Ti.UI.createLabel({
+			text: "Temperature: " + forecast.temperature_string,
+			top: 140,
+			left: 60
+		}));
+		currentView.add(Ti.UI.createImageView({
+			image: forecast.icon_url,
+			top: 60,
+			left: 90
+		}));
+		currentView.add(Ti.UI.createLabel({
+			text: "Wind: " + forecast.wind_string,
+			top: 170,
+			left: 60
+		}));
+	/*mainWin.add(Ti.UI.createLabel({
+		text: forecast.conditions,
 		top: 60,
 		left: 20
 	}));
 	mainWin.add(Ti.UI.createLabel({
-		text: net.forecast.simpleforecast.forecastday.conditions,
-		top: 60,
-		left: 20
-	}));
-	mainWin.add(Ti.UI.createImageView({
-		image: net.forecast.simpleforecast.forecastday.icon_url,
+		text: forecast.conditions,
 		top: 60,
 		left: 60
-	}));
+	}));*/
+	mainWin.add(currentView);
 };
 mainWin.add(title);
 mainWin.open();

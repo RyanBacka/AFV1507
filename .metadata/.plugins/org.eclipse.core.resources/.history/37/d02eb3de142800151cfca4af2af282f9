@@ -1,0 +1,59 @@
+var mainWin = Ti.UI.createWindow({
+	backgroundColor: "#f0f8ff",
+	/*layout: vertical*/
+});
+
+var title = Ti.UI.createLabel({
+	text: "Weather App",
+	top: 20
+});
+
+var buildGeoUi = function(lat, lng){
+	console.log(lat, lng);
+	mainWin.add(Ti.UI.createLabel({
+		text:"Latitude: " + lat,
+		top:50
+	}));
+	mainWin.add(Ti.UI.createLabel({
+		text:"Longitude: " + lng,
+		top:70
+	}));
+};
+
+var buildUi = function(forecast, location){
+	mainWin.add(Ti.UI.createLabel({
+		text: location.city + ", " + location.state,
+		top: 40,
+		left: 20
+	}));
+	mainWin.add(Ti.UI.createLabel({
+		text: forecast.temperature_string,
+		top: 60,
+		left: 20
+	}));
+	mainWin.add(Ti.UI.createLabel({
+		text: "Current Weather: " + forecast.weather,
+		top: 120,
+		left: 20
+	}));
+	mainWin.add(Ti.UI.createLabel({
+		text: "Wind: " + forecast.wind_string,
+		top: 140,
+		left: 20
+	}));
+	/*mainWin.add(Ti.UI.createLabel({
+		text: forecast.conditions,
+		top: 60,
+		left: 20
+	}));
+	mainWin.add(Ti.UI.createLabel({
+		text: forecast.conditions,
+		top: 60,
+		left: 60
+	}));*/
+};
+mainWin.add(title);
+mainWin.open();
+
+exports.buildUi = buildUi;
+exports.buildGeoUi = buildGeoUi;

@@ -1,5 +1,5 @@
 
-Sat Jul 11 2015 16:47:09 GMT-0400 (EDT)
+Sat Jul 11 2015 18:09:28 GMT-0400 (EDT)
 
 Operating System
   Name                        = Mac OS X
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/ryankbacka/.appcelerator/install/4.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 4.1.0.GA --project-dir /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1 --target simulator --ios-version 8.4 --device-family universal --deploy-type development --sim-type ipad --sim-version 8.4 --device-id 70E3F116-8E6E-4B1F-8FE6-D328815E42DF --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 50069 --plugin-paths /Users/ryankbacka/.appcelerator/install/4.1.0/package/node_modules --config-file /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/build-1436647627187.json --no-banner
+  /usr/local/bin/node /Users/ryankbacka/.appcelerator/install/4.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 4.1.0.GA --project-dir /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1 --target simulator --ios-version 8.4 --device-family universal --deploy-type development --sim-type ipad --sim-version 8.4 --device-id 70E3F116-8E6E-4B1F-8FE6-D328815E42DF --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 50069 --plugin-paths /Users/ryankbacka/.appcelerator/install/4.1.0/package/node_modules --config-file /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/build-1436652565435.json --no-banner
 
 [DEBUG]  Detecting modules in /Users/ryankbacka/Library/Application Support/Titanium/modules
 [DEBUG]  Detected android module: com.appcelerator.apm 1.1.1 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.1
@@ -90,15 +90,15 @@ Command
 [INFO]   Processing Titanium namespace resources
 [DEBUG]  Copying /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/iphone/modules/ui/images => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app/modules/ui/images
 [INFO]   Skipping xcodebuild
-[INFO]   Finished building the application in 182ms
+[INFO]   Finished building the application in 184ms
 [INFO]   Launching iOS Simulator
-[DEBUG]  [ioslib] Removing old log file: /Users/ryankbacka/Library/Developer/CoreSimulator/Devices/70E3F116-8E6E-4B1F-8FE6-D328815E42DF/data/Containers/Data/Application/7A867F6E-8283-448A-8AC8-A25CD921CF8E/Documents/23774ca3-8843-493c-9888-3312794a0de1.log
+[DEBUG]  [ioslib] Removing old log file: /Users/ryankbacka/Library/Developer/CoreSimulator/Devices/70E3F116-8E6E-4B1F-8FE6-D328815E42DF/data/Containers/Data/Application/59B825DE-E0B5-4B53-864C-3039DCAC9DE9/Documents/23774ca3-8843-493c-9888-3312794a0de1.log
 [DEBUG]  [ioslib] Executing: /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/node_modules/ioslib/lib/ios-sim "launch" "/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app" "--verbose" "--xcode-dir" "/Applications/Xcode.app/Contents/Developer" "--udid" "70E3F116-8E6E-4B1F-8FE6-D328815E42DF" "--timeout" "180"
 [DEBUG]  [ioslib] Executing: osascript "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/node_modules/ioslib/lib/iphone_sim_activate.scpt" "/Applications/Xcode.app/Contents/Developer/Applications/iOS Simulator.app"
-[DEBUG]  [ioslib] [ios-sim] [DEBUG] App Spec: <DTiPhoneSimulatorApplicationSpecifier 0x7fc15c921fa0> specified by app path /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app
-[DEBUG]  [ioslib] [ios-sim] [DEBUG] SDK Root: <DTiPhoneSimulatorSystemRoot 0x7fc15ca01170> path=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk
-[DEBUG]  [ioslib] [ios-sim] [DEBUG] Creating named pipe at `/var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T//ios-sim-stderr-pipe-1436647630'
-[DEBUG]  [ioslib] [ios-sim] [DEBUG] Creating named pipe at `/var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T//ios-sim-stdout-pipe-1436647630'
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] App Spec: <DTiPhoneSimulatorApplicationSpecifier 0x7f8d18642040> specified by app path /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/iphone/build/Debug-iphonesimulator/AVF1507 Project1.app
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] SDK Root: <DTiPhoneSimulatorSystemRoot 0x7f8d186004f0> path=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Creating named pipe at `/var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T//ios-sim-stderr-pipe-1436652568'
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Creating named pipe at `/var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T//ios-sim-stdout-pipe-1436652568'
 [DEBUG]  [ioslib] [ios-sim] [DEBUG] using device family iphone
 [DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing C8A72580-ADAF-47F6-A2D3-F77DD07B6B8F == 70E3F116-8E6E-4B1F-8FE6-D328815E42DF
 [DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing 161A768C-1479-4EC4-A64C-0ADC94143CF3 == 70E3F116-8E6E-4B1F-8FE6-D328815E42DF
@@ -108,5 +108,5 @@ Command
 [DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing 70E3F116-8E6E-4B1F-8FE6-D328815E42DF == 70E3F116-8E6E-4B1F-8FE6-D328815E42DF
 [DEBUG]  [ioslib] [ios-sim] [DEBUG] set device to : iPad 2
 [DEBUG]  [ioslib] [ios-sim] [DEBUG] Session started
-[DEBUG]  [ioslib] Found application log file: /Users/ryankbacka/Library/Developer/CoreSimulator/Devices/70E3F116-8E6E-4B1F-8FE6-D328815E42DF/data/Containers/Data/Application/630537D0-A286-4429-B29E-CF455553F7A3/Documents/23774ca3-8843-493c-9888-3312794a0de1.log
-[INFO]   Project built successfully in 4s 83ms
+[DEBUG]  [ioslib] Found application log file: /Users/ryankbacka/Library/Developer/CoreSimulator/Devices/70E3F116-8E6E-4B1F-8FE6-D328815E42DF/data/Containers/Data/Application/CF5287DE-35D3-481B-93D7-6238AB8522CE/Documents/23774ca3-8843-493c-9888-3312794a0de1.log
+[INFO]   Project built successfully in 4s 79ms

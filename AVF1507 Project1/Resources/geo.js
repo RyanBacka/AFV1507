@@ -6,13 +6,10 @@ var getGeo =  function() {
 		console.log(a);
 		var lat = a.coords.latitude;
 		var lng = a.coords.longitude;
-		net.netFnc(lat, lng);
-		ui.buildGeoUi(lat, lng);
 		console.log(lat, lng);
-	});
-	
-	
-	
+		net.netFnc(lat, lng);
+		//ui.buildGeoUi(lat, lng);
+	});	
 };
 
 exports.getGeo = getGeo;

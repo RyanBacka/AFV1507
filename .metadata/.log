@@ -6081,3 +6081,1869 @@ org.eclipse.core.runtime.CoreException: +---------------------------------------
 +---------------------------------------------------------------------------------------+
 
 {"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.aptana.git.core 4 1 2015-07-11 16:50:26.813
+!MESSAGE Errors occurred while refreshing git index
+!SUBENTRY 1 com.aptana.git.core 4 0 2015-07-11 16:50:26.813
+!MESSAGE Failed to acquire lock for git repository.
+!SUBENTRY 1 com.aptana.git.core 4 0 2015-07-11 16:50:26.813
+!MESSAGE Failed to acquire lock for git repository.
+!SUBENTRY 1 com.aptana.git.core 4 0 2015-07-11 16:50:26.813
+!MESSAGE Failed to acquire lock for git repository.
+
+!ENTRY com.aptana.git.core 4 1 2015-07-11 16:50:39.026
+!MESSAGE Errors occurred while refreshing git index
+!SUBENTRY 1 com.aptana.core 4 0 2015-07-11 16:50:39.026
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/ryankbacka/Desktop/AVF1507"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/ryankbacka/Desktop/AVF1507"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$StagedFilesRefreshJob.call(GitIndex.java:954)
+	at com.aptana.git.core.model.GitIndex$StagedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:185)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 16 more
+!SUBENTRY 1 com.aptana.core 4 0 2015-07-11 16:50:39.027
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/ryankbacka/Desktop/AVF1507"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/ryankbacka/Desktop/AVF1507"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$UnstagedFilesRefreshJob.call(GitIndex.java:995)
+	at com.aptana.git.core.model.GitIndex$UnstagedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:185)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 16 more
+!SUBENTRY 1 com.aptana.core 4 0 2015-07-11 16:50:39.028
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/ryankbacka/Desktop/AVF1507"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/ryankbacka/Desktop/AVF1507"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$UntrackedFilesRefreshJob.call(GitIndex.java:1030)
+	at com.aptana.git.core.model.GitIndex$UntrackedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:185)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 16 more
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 16:52:10.349
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 16:52:10.349
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 16:52:10.349
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 16:54:08.727
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 16:54:08.728
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 16:54:08.728
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 16:58:14.140
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 16:58:14.141
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 16:58:14.141
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 16:58:39.917
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 16:58:39.917
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 16:58:39.918
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.aptana.git.core 4 1 2015-07-11 16:59:04.375
+!MESSAGE Errors occurred while refreshing git index
+!SUBENTRY 1 com.aptana.core 4 0 2015-07-11 16:59:04.376
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/ryankbacka/Desktop/AVF1507"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/ryankbacka/Desktop/AVF1507"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$UnstagedFilesRefreshJob.call(GitIndex.java:995)
+	at com.aptana.git.core.model.GitIndex$UnstagedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:185)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 16 more
+!SUBENTRY 1 com.aptana.core 4 0 2015-07-11 16:59:04.377
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/ryankbacka/Desktop/AVF1507"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/ryankbacka/Desktop/AVF1507"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$UntrackedFilesRefreshJob.call(GitIndex.java:1030)
+	at com.aptana.git.core.model.GitIndex$UntrackedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:185)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 16 more
+!SUBENTRY 1 com.aptana.core 4 0 2015-07-11 16:59:04.378
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/ryankbacka/Desktop/AVF1507"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/ryankbacka/Desktop/AVF1507"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$StagedFilesRefreshJob.call(GitIndex.java:954)
+	at com.aptana.git.core.model.GitIndex$StagedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:185)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 16 more
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:00:22.501
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:00:22.501
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:00:22.501
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:06:10.124
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\nAppcelerator Login required to continue ...\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:06:10.124
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+Appcelerator Login required to continue ...
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+Appcelerator Login required to continue ...
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:06:10.124
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+Appcelerator Login required to continue ...
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:07:04.397
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:07:04.397
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:07:04.397
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:08:50.893
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:08:50.894
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:08:50.894
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:11:57.831
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:11:57.831
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:11:57.831
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:15:29.260
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:15:29.261
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:15:29.261
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:18:27.958
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:18:27.958
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:18:27.958
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:29:52.060
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:29:52.060
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:29:52.061
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:32:57.136
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:32:57.136
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:32:57.136
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:33:34.447
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:33:34.447
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:33:34.447
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:34:13.642
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:34:13.643
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:34:13.643
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:34:47.105
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:34:47.105
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:34:47.105
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:36:25.834
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:36:25.834
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:36:25.834
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:37:06.864
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:37:06.864
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:37:06.864
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:39:56.153
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:39:56.153
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:39:56.153
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:40:30.983
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:40:30.983
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:40:30.984
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:41:18.087
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:41:18.087
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:41:18.087
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:42:37.201
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:42:37.202
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:42:37.202
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:42:41.396
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:42:41.396
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:42:41.396
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.aptana.git.core 4 1 2015-07-11 17:42:50.471
+!MESSAGE Errors occurred while refreshing git index
+!SUBENTRY 1 com.aptana.core 4 0 2015-07-11 17:42:50.471
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/ryankbacka/Desktop/AVF1507"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/ryankbacka/Desktop/AVF1507"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$UnstagedFilesRefreshJob.call(GitIndex.java:995)
+	at com.aptana.git.core.model.GitIndex$UnstagedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:185)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 16 more
+!SUBENTRY 1 com.aptana.core 4 0 2015-07-11 17:42:50.473
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/ryankbacka/Desktop/AVF1507"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/ryankbacka/Desktop/AVF1507"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$StagedFilesRefreshJob.call(GitIndex.java:954)
+	at com.aptana.git.core.model.GitIndex$StagedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:185)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 16 more
+!SUBENTRY 1 com.aptana.core 4 0 2015-07-11 17:42:50.473
+!MESSAGE Cannot run program "/usr/bin/git" (in directory "/Users/ryankbacka/Desktop/AVF1507"): error=7, Argument list too long
+!STACK 0
+java.io.IOException: Cannot run program "/usr/bin/git" (in directory "/Users/ryankbacka/Desktop/AVF1507"): error=7, Argument list too long
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1047)
+	at com.aptana.core.util.ProcessRunner.startProcess(ProcessRunner.java:165)
+	at com.aptana.core.util.ProcessRunner.doRun(ProcessRunner.java:146)
+	at com.aptana.core.util.ProcessRunner.run(ProcessRunner.java:85)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:279)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:254)
+	at com.aptana.core.util.ProcessRunner.runInBackground(ProcessRunner.java:248)
+	at com.aptana.git.core.model.GitExecutable.runInBackground(GitExecutable.java:363)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1588)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1546)
+	at com.aptana.git.core.model.GitRepository.execute(GitRepository.java:1541)
+	at com.aptana.git.core.model.GitIndex$UntrackedFilesRefreshJob.call(GitIndex.java:1030)
+	at com.aptana.git.core.model.GitIndex$UntrackedFilesRefreshJob.call(GitIndex.java:1)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:262)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:745)
+Caused by: java.io.IOException: error=7, Argument list too long
+	at java.lang.UNIXProcess.forkAndExec(Native Method)
+	at java.lang.UNIXProcess.<init>(UNIXProcess.java:185)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:130)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1028)
+	... 16 more
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:45:54.534
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:45:54.534
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:45:54.535
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:47:24.875
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:47:24.876
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:47:24.876
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:48:43.053
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:48:43.053
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:48:43.053
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:49:19.954
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:49:19.955
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:49:19.955
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:50:35.619
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:50:35.619
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:50:35.619
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:51:32.045
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:51:32.045
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:51:32.045
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:52:19.046
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:52:19.047
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:52:19.047
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:52:55.588
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:52:55.588
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:52:55.589
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:55:52.792
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:55:52.792
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:55:52.793
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:57:52.051
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:57:52.051
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:57:52.051
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:58:23.265
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:58:23.265
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:58:23.265
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:59:03.279
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:59:03.280
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:59:03.280
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:59:59.979
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 17:59:59.979
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 17:59:59.979
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 18:00:34.410
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 18:00:34.411
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 18:00:34.411
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 18:08:42.636
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 18:08:42.636
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 18:08:42.636
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 18:09:22.982
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: 23774ca3-8843-493c-9888-3312794a0de1 returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-11 18:09:22.982
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:595)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.build(IOSNodeJSCommandsHelper.java:289)
+	at com.appcelerator.titanium.ios.core.launching.IOSNodeJSCommandsHelper.runOnSimulator(IOSNodeJSCommandsHelper.java:394)
+	at com.appcelerator.titanium.ios.ui.launching.simulator.IOSSimulatorLaunchConfigurationDelegate.launch(IOSSimulatorLaunchConfigurationDelegate.java:51)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-11 18:09:22.982
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
