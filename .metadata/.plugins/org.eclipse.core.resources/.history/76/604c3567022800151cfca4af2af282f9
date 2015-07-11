@@ -5,14 +5,13 @@ var getGeo =  function() {
 	Ti.Geolocation.getCurrentPosition(function(a){
 		console.log(a);
 		console.log(JSON.stringify(a.source));
-		var userLoc = {
-			lat : a.cords.latitude,
-			lng : a.cords.longitude
-		};
+		var lat = a.cords.latitude;
+		var lng = a.cords.longitude;
 	});
-	//win.buildGeoUi;
+	win.buildUi;
 	net.netFnc;
-	console.log(userLoc.lat, userLoc.lng);
+	console.log(lat);
+	console.log(lng);
 };
 
 exports.getGeo = getGeo;
