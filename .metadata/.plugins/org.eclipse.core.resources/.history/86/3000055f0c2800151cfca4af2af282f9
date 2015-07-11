@@ -1,0 +1,18 @@
+var net = require("network");
+var lat;
+var lng;
+var getGeo =  function() {
+	console.log("Geo Module");
+	//Ti.Geoloaction.purpose = "Your location is needed to get your weather forecast.";
+	Ti.Geolocation.getCurrentPosition(function(a){
+		console.log(a);
+		console.log(JSON.stringify(a.source));
+		lat = a.cords.latitude;
+		lng = a.cords.longitude;
+	});
+	ui.buildGeoUi();
+	//net.netFnc();
+	console.log(lat, lng);
+};
+
+exports.getGeo = getGeo;

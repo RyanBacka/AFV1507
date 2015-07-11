@@ -15,11 +15,11 @@ var buildGeoUi = function(lat, lng){
 	console.log(lat, lng);
 	mainWin.add(Ti.UI.createLabel({
 		text:"Latitude: " + lat,
-		top:50
+		top:35
 	}));
 	mainWin.add(Ti.UI.createLabel({
 		text:"Longitude: " + lng,
-		top:70
+		top:15
 	}));
 };
 

@@ -7,11 +7,10 @@ var getGeo =  function() {
 		var lat = a.cords.latitude;
 		var lng = a.cords.longitude;
 		ui.buildGeoUi();
-		console.log(lat, lng);
 	});
 	
 	//net.netFnc();
-	
+	console.log(lat, lng);
 };
 
 exports.getGeo = getGeo;

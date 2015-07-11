@@ -11,15 +11,15 @@ var title = Ti.UI.createLabel({
 var geo = require("geo");
 var net = require("network");
 
-var buildGeoUi = function(lat, lng){
-	console.log(lat, lng);
+var buildGeoUi = function(userLoc){
+	console.log(userLoc.lat, userLoc.lng);
 	mainWin.add(Ti.UI.createLabel({
-		text:"Latitude: " + lat,
-		top:50
+		text:"Latitude: " + userLoc.lat,
+		top:35
 	}));
 	mainWin.add(Ti.UI.createLabel({
-		text:"Longitude: " + lng,
-		top:70
+		text:"Longitude: " + userLoc.lng,
+		top:15
 	}));
 };
 
