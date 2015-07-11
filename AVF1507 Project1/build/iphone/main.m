@@ -10,7 +10,7 @@
 NSString * const TI_APPLICATION_DEPLOYTYPE = @"development";
 NSString * const TI_APPLICATION_ID = @"com.fullsail.AVFProject1";
 NSString * const TI_APPLICATION_PUBLISHER = @"ryankbacka";
-NSString * const TI_APPLICATION_URL = @"http://";
+NSString * const TI_APPLICATION_URL = @"http://www.fullsail.com";
 NSString * const TI_APPLICATION_NAME = @"AVF1507 Project1";
 NSString * const TI_APPLICATION_VERSION = @"1.0";
 NSString * const TI_APPLICATION_DESCRIPTION = @"undefined";

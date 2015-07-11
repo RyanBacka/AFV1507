@@ -1,6 +1,6 @@
-var netFnc = function(){
+var netFnc = function(lat, lng){
 var geo = require("geo");
-var url = "http://api.wunderground.com/api/44f4f693e570c8c6/geolookup/conditions/forecast/q/" + geo.userLoc.lat + "," + geo.userLoc.lng + ".json"; 
+var url = "http://api.wunderground.com/api/44f4f693e570c8c6/geolookup/conditions/forecast/q/" + geo.lat + "," + geo.lng + ".json"; 
 
 if (Ti.Network.online) {
 	var getData = Ti.Network.createHTTPClient();
