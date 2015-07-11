@@ -29,7 +29,7 @@ var buildUi = function(forecast, location){
 	var currentView = Ti.UI.createView({
 		top: 80,
 		left:40,
-		width: 500,
+		width: 510,
 		height: 215,
 		backgroundColor: "#fff"
 	});
