@@ -56,9 +56,7 @@ var buildUi = function(weatherData){
 		left: 20
 	}));
 	mainWin.add(Ti.UI.createImageView({
-		image: net.forecast.simpleforecast.forecastday.icon_url,
-		top: 60,
-		left: 60
+		
 	}));
 };
 mainWin.add(title);
