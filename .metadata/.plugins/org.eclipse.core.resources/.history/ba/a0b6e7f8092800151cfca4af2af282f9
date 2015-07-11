@@ -10,7 +10,7 @@ var getGeo =  function() {
 			lng : a.cords.longitude
 		};
 	});
-	ui.buildGeoUi();
+	win.buildGeoUi();
 	//net.netFnc();
 	console.log(userLoc.lat, userLoc.lng);
 };

@@ -21,6 +21,7 @@ var buildGeoUi = function(userLoc){
 		text:"Longitude: " + userLoc.lng,
 		top:15
 	}));
+	mainWin.add(latLabel, lngLabel);
 };
 
 var buildUi = function(weatherData){

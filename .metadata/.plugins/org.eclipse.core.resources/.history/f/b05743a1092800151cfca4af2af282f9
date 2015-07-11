@@ -6,7 +6,7 @@
 var ui = require("win");
 
 var geo = require("geo");
-geo.getGeo();
+geo.getGeo;
 
 
 

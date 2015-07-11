@@ -1,7 +1,7 @@
-var net = require("network");
+//var net = require("network");
 var getGeo =  function() {
 	console.log("Geo Module");
-	//Ti.Geoloaction.purpose = "Your location is needed to get your weather forecast.";
+	Ti.Geoloaction.purpose = "Your location is needed to get your weather forecast.";
 	Ti.Geolocation.getCurrentPosition(function(a){
 		console.log(a);
 		console.log(JSON.stringify(a.source));
@@ -10,8 +10,8 @@ var getGeo =  function() {
 			lng : a.cords.longitude
 		};
 	});
-	ui.buildGeoUi();
-	//net.netFnc();
+	//win.buildGeoUi;
+	net.netFnc;
 	console.log(userLoc.lat, userLoc.lng);
 };
 
