@@ -1,5 +1,5 @@
 
-Sat Jul 11 2015 22:31:03 GMT-0400 (EDT)
+Sat Jul 11 2015 22:52:56 GMT-0400 (EDT)
 
 Operating System
   Name                        = Mac OS X
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = android
 
 Command
-  /usr/local/bin/node /Users/ryankbacka/.appcelerator/install/4.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform android --log-level trace --sdk 4.1.0.GA --project-dir /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1 --target emulator --android-sdk /Users/ryankbacka/Library/android-sdk-macosx --device-id titanium_1_WVGA800 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 50069 --plugin-paths /Users/ryankbacka/.appcelerator/install/4.1.0/package/node_modules --config-file /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/build-1436668258727.json --no-banner
+  /usr/local/bin/node /Users/ryankbacka/.appcelerator/install/4.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform android --log-level trace --sdk 4.1.0.GA --project-dir /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1 --target emulator --android-sdk /Users/ryankbacka/Library/android-sdk-macosx --device-id titanium_1_WVGA800 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 50069 --plugin-paths /Users/ryankbacka/.appcelerator/install/4.1.0/package/node_modules --config-file /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/build-1436669571008.json --no-banner
 
 [DEBUG]  Detecting modules in /Users/ryankbacka/Library/Application Support/Titanium/modules
 [DEBUG]  Detected android module: com.appcelerator.apm 1.1.1 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.1
@@ -62,11 +62,9 @@ Command
 [TRACE]  Checking if emulator titanium_1_WVGA800 is running...
 [TRACE]  Detecting if titanium_1_WVGA800 exists...
 [TRACE]  Found 1 emulators
-[TRACE]  Emulator exists, detecting all running emulators and connected devices...
-[TRACE]  Detected 1 running emulators and connected devices
-[TRACE]  Checking 1 devices to see if it's the emulator we want
-[TRACE]  The emulator is running
-[INFO]   Emulator already running
+[TRACE]  Emulator exists, detecting all running emulators and connected devices.
+[
+[TRACE]  Detected 1 running emulators and connected devicesnning
 [TRACE]  Checking the boot state for the next 240000 ms
 [TRACE]  Waiting for emulator to register with ADB
 [TRACE]  Emulator process started
@@ -90,19 +88,19 @@ Command
 [DEBUG]  Symlinking /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/android/images/res-notlong-port-ldpi/default.png => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/drawable-notlong-port-ldpi/background.png
 [DEBUG]  Symlinking /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/android/images/res-notlong-port-mdpi/default.png => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/drawable-notlong-port-mdpi/background.png
 [DEBUG]  Symlinking /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/assets/Resources/appicon.png => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/drawable/appicon.png
+[DEBUG]  Symlinking /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/templates/app/default/template/Resources/android/default.png => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/drawable/background.png
 [INFO]   Processing JavaScript files
 [WARN]   Overwriting file /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/assets/Resources/app.js
 [DEBUG]  Symlinking /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/app.js => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/assets/Resources/app.js
+[TRACE]  Found 1 devices, checking if any of them are the emulator...
+[TRACE]  Emulator is running!
+[TRACE]  Checking if boot animation has finished...
 [WARN]   Overwriting file /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/assets/Resources/geo.js
 [DEBUG]  Symlinking /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/geo.js => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/assets/Resources/geo.js
 [WARN]   Overwriting file /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/assets/Resources/network.js
-[DEBUG]  Symlinking /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/network.js => /Users/ryankbacka/Desktop/AVF1507/AVF150
-[TRACE]  Emulator is running!
-[TRACE]  Checking if boot animation has finished...
+[DEBUG]  Symlinking /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/network.js => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/assets/Resources/network.js
 [WARN]   Overwriting file /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/assets/Resources/win.js
 [DEBUG]  Symlinking /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/Resources/win.js => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/assets/Resources/win.js
-[DEBUG]  Adding library /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/kroll-v8.jar
-[D
 [DEBUG]  Adding library /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/kroll-v8.jar
 [DEBUG]  Adding library /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-analytics.jar
 [DEBUG]  Adding dependency library /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/aps-analytics.jar
@@ -138,59 +136,49 @@ Command
 [INFO]   Emulator is booted
 [INFO]   SD card not required, skipping mount check
 [INFO]   Emulator ready!
-[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-89515-1tu0zpn/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
+[DEBUG]  Copying /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-92756-rywbx1/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-android.res.zip
-[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-89515-1vssxkc/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-92756-f42mh7/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-app.res.zip
-[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-89515-ufe44m/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-92756-8rmyvh/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-filesystem.res.zip
-[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-89515-1gn1po4/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-92756-1shhqhr/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-media.res.zip
-[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-89515-n8od8k/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-92756-18su55i/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-locale.res.zip
-[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-89515-pg72t9/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-92756-759hxg/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-network.res.zip
-[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-89515-olyt2y/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-92756-80xiz9/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-xml.res.zip
-[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-89515-17p6eqi/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-92756-1071nlx/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-utils.res.zip
-[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-89515-10wv9vp/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-92756-19tc72a/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-geolocation.res.zip
-[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-89515-1bjldn0/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-92756-y5cni9/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-accelerometer.res.zip
-[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-89515-yjvcaf/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-92756-elq7uu/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-contacts.res.zip
-[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-89515-1ueljco/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-92756-1knfnye/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-map.res.zip
-[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-89515-1qbydjh/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-92756-cgm1jc/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-calendar.res.zip
-[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-89515-tj2sv0/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-92756-1qtb8mj/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-gesture.res.zip
-[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-89515-4g4cl1/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-92756-n63p6v/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-platform.res.zip
-[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-89515-14o516b/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-92756-19zbbpp/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
 [INFO]   Extracting module resources: /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-database.res.zip
-[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-89515-nxmkd6/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
+[DEBUG]  Merging /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-92756-15133ab/res/values/strings.xml => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
 [DEBUG]  Removing old file: /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/.classpath
 [DEBUG]  Removing old file: /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/.gitignore
 [DEBUG]  Removing old file: /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/.project
 [DEBUG]  Removing old file: /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/AndroidManifest.xml
 [DEBUG]  Removing old file: /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/default.properties
 [DEBUG]  Removing old file: /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/java-sources.txt
-[DEBUG]  Copying template /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/templates/build/AppInfo.java => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/gen/com/fullsail/AVFProject1/Avf1507Project1AppInfo.java
-[DEBUG]  Copying template /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/templates/build/App.java => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/gen/com/fullsail/AVFProject1/Avf1507Project1Application.java
-[DEBUG]  Copying template /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/templates/build/Activity.java => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/gen/com/fullsail/AVFProject1/Avf1507Project1Activity.java
-[DEBUG]  Copying template /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/templates/build/project => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/.project
-[DEBUG]  Copying template /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/templates/build/default.properties => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/default.properties
-[DEBUG]  Copying /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/templates/build/gitignore => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/.gitignore
-[DEBUG]  Copying /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/templates/build/classpath => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/.classpath
-[INFO]   No aidl files to compile, continuing
 [INFO]   Generating i18n files
 [DEBUG]  Merging en strings => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/strings.xml
 [INFO]   Generating /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res/values/theme.xml
-[INFO]   Packaging application: /Users/ryankbacka/Library/android-sdk-macosx/build-tools/23.0.0-preview/aapt "package" "-f" "-m" "-J" "/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/gen" "-M" "/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/AndroidManifest.xml" "-A" "/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/assets" "-S" "/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res" "-I" "/Users/ryankbacka/Library/android-sdk-macosx/platforms/android-22/android.jar" "-F" "/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat" "-S" "/var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-89515-t4iptf/res" "-S" "/var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-89515-1iry0sd/res"
-[INFO]   Building Java source files: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/javac "-J-Xmx256M" "-encoding" "utf8" "-bootclasspath" "/Users/ryankbacka/Library/android-sdk-macosx/platforms/android-22/android.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/kroll-v8.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-analytics.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/aps-analytics.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-android.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/jaxen-1.1.1.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/ti-commons-codec-1.3.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/kroll-common.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/titanium.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-app.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-ui.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/nineoldandroids-appc-2.4.0.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-filesystem.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-media.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-appcompat.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/android-support-v4.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/android-support-v7-appcompat.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-locale.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-network.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/thirdparty.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-xml.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-utils.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-geolocation.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-accelerometer.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-contacts.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-map.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-calendar.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-gesture.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-platform.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-database.jar:/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/lib/titanium-verify.jar:R.class:ApplicationStylesheet.class:Avf1507Project1Activity.class:Avf1507Project1AppInfo.class:Avf1507Project1Application.class" "-d" "/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/classes" "-proc:none" "-target" "1.6" "-source" "1.6" "@/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/java-sources.txt"
-[INFO]   Running dexer: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/java "-Xmx1024M" "-XX:-UseGCOverheadLimit" "-Djava.ext.dirs=/Users/ryankbacka/Library/android-sdk-macosx/platform-tools" "-jar" "/Users/ryankbacka/Library/android-sdk-macosx/build-tools/23.0.0-preview/lib/dx.jar" "--dex" "--output=/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/classes.dex" "/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/classes" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/lib/titanium-verify.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/kroll-v8.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-analytics.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/aps-analytics.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-android.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/jaxen-1.1.1.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/ti-commons-codec-1.3.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/kroll-common.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/titanium.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-app.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-ui.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/nineoldandroids-appc-2.4.0.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-filesystem.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-media.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-appcompat.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/android-support-v4.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/android-support-v7-appcompat.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-locale.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-network.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/thirdparty.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-xml.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-utils.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-geolocation.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-accelerometer.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-contacts.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-map.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-calendar.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-gesture.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-platform.jar" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/modules/titanium-database.jar"
+[INFO]   Packaging application: /Users/ryankbacka/Library/android-sdk-macosx/build-tools/23.0.0-preview/aapt "package" "-f" "-m" "-J" "/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/gen" "-M" "/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/AndroidManifest.xml" "-A" "/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/assets" "-S" "/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/res" "-I" "/Users/ryankbacka/Library/android-sdk-macosx/platforms/android-22/android.jar" "-F" "/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/app.ap_" "--auto-add-overlay" "--extra-packages" "ti.modules.titanium.ui:android.support.v7.appcompat" "-S" "/var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-92756-1k5xoby/res" "-S" "/var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/115611-92756-1qdhv2p/res"
 [INFO]   Creating unsigned apk
 [DEBUG]  Processing /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/app.ap_
 [DEBUG]  Deflating AndroidManifest.xml
@@ -286,10 +274,6 @@ Command
 [DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v4/abc_ic_menu_copy_mtrl_am_alpha.png
 [DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v4/abc_ic_menu_cut_mtrl_alpha.png
 [DEBUG]  Adding res/drawable-ldrtl-xxxhdpi-v4/abc_spinner_mtrl_am_alpha.9.png
-[DEBUG]  Adding res/drawable-long-land-hdpi-v4/background.png
-[DEBUG]  Adding res/drawable-long-land-ldpi-v4/background.png
-[DEBUG]  Adding res/drawable-long-port-hdpi-v4/background.png
-[DEBUG]  Adding res/drawable-long-port-ldpi-v4/background.png
 [DEBUG]  Adding res/drawable-mdpi-v4/abc_ab_share_pack_mtrl_alpha.9.png
 [DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_000.png
 [DEBUG]  Adding res/drawable-mdpi-v4/abc_btn_check_to_on_mtrl_015.png
@@ -329,11 +313,6 @@ Command
 [DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_default_mtrl_alpha.9.png
 [DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_search_activated_mtrl_alpha.9.png
 [DEBUG]  Adding res/drawable-mdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png
-[DEBUG]  Adding res/drawable-notlong-land-hdpi-v4/background.png
-[DEBUG]  Adding res/drawable-notlong-land-ldpi-v4/background.png
-[DEBUG]  Adding res/drawable-notlong-land-mdpi-v4/background.png
-[DEBUG]  Adding res/drawable-notlong-port-hdpi-v4/background.png
-[DEBUG]  Adding res/drawable-notlong-port-ldpi-v4/background.png
 [DEBUG]  Adding res/drawable-notlong-port-mdpi-v4/background.png
 [DEBUG]  Adding res/drawable-tvdpi-v4/abc_btn_switch_to_on_mtrl_00001.9.png
 [DEBUG]  Adding res/drawable-tvdpi-v4/abc_btn_switch_to_on_mtrl_00012.9.png
@@ -567,3 +546,17 @@ Command
 [DEBUG]  Adding lib/x86/libstlport_shared.so
 [DEBUG]  Adding lib/x86/libtiverify.so
 [INFO]   Writing unsigned apk: /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/app-unsigned.apk
+[INFO]   Using MD5withRSA signature algorithm
+[INFO]   Signing apk: /Library/Java/JavaVirtualMachines/jdk1.7.0_80.jdk/Contents/Home/bin/jarsigner "-sigalg" "MD5withRSA" "-digestalg" "SHA1" "-keystore" "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/android/dev_keystore" "-storepass" "*******" "-signedjar" "/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/AVF1507 Project1.apk" "/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/app-unsigned.apk" "tidev"
+[INFO]   Aligning zip file: /Users/ryankbacka/Library/android-sdk-macosx/build-tools/23.0.0-preview/zipalign "-v" "4" "/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/AVF1507 Project1.apk" "/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/AVF1507 Project1.apkz"
+[INFO]   Writing build manifest: /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/build-manifest.json
+[INFO]   Making sure the adb server is running
+[INFO]   Installing apk: /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/AVF1507 Project1.apk
+[TRACE]  Checking if package manager service is started
+[TRACE]  Package manager has started
+[TRACE]  Executing: /Users/ryankbacka/Library/android-sdk-macosx/platform-tools/adb -s emulator-5554 install -r /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project1/build/android/bin/AVF1507 Project1.apk
+[INFO]   App successfully installed
+[INFO]   Starting app: com.fullsail.AVFProject1/.Avf1507Project1Activity
+[DEBUG]  Trying to start the app...
+[INFO]   Application pid: 1405
+[INFO]   Project built successfully in 29s 83ms

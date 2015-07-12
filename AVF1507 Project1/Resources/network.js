@@ -7,11 +7,13 @@ if (Ti.Network.online) {
 	getData.onload = function(b){
 		console.log(b);
 		var json = JSON.parse(this.responseText);
-		var current = json.current_observation;
-		var location = json.location;
-		var forecast = json.forecast.txt_forecast;
-		console.log(current, location, forecast);
-		ui.buildUi(current, location, forecast);
+		var netWea = {
+		 current : json.current_observation,
+		 location : json.location,
+		 forecast : json.forecast.txt_forecast
+		 };
+		console.log(netWea.current, netWea.location, netWea.forecast);
+		ui.buildUi(netWea);
 	};
 	getData.open("GET", url);
 	getData.send();

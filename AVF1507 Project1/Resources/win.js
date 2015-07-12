@@ -20,9 +20,9 @@ var buildGeoUi = function(lat, lng){
 	}));
 };
 
-var buildUi = function(current, location, forecast){
+var buildUi = function(netWea){
 	mainWin.add(Ti.UI.createLabel({
-		text: location.city + ", " + location.state + " (" + location.zip +")",
+		text: netWea.location.city + ", " + netWea.location.state + " (" + netWea.location.zip +")",
 		top: 10,
 		left: 40
 	}));
@@ -40,22 +40,22 @@ var buildUi = function(current, location, forecast){
 			left: 20
 		}));
 		currentView.add(Ti.UI.createLabel({
-			text: current.weather,
+			text: netWea.current.weather,
 			top: 110,
 			left: 60
 		}));
 		currentView.add(Ti.UI.createLabel({
-			text: "Temperature: " + current.temperature_string,
+			text: "Temperature: " + netWea.current.temperature_string,
 			top: 140,
 			left: 60
 		}));
 		currentView.add(Ti.UI.createImageView({
-			image: current.icon_url,
+			image: netWea.current.icon_url,
 			top: 60,
 			left: 90
 		}));
 		currentView.add(Ti.UI.createLabel({
-			text: "Wind: " + current.wind_string,
+			text: "Wind: " + netWea.current.wind_string,
 			top: 170,
 			left: 60
 		}));
@@ -70,12 +70,12 @@ var buildUi = function(current, location, forecast){
 	});
 	for (x = 0; x<3; x++){
 		forecastView.add(Ti.UI.createLabel({
-			text: forecast.forecastday[x].title,
+			text: netWea.forecast.forecastday[x].title,
 			left: 20,
 			top:10
 		}));
 		forecastView.add(Ti.UI.createLabel({
-			text: forecast.forecastday[x].fcttext,
+			text: netWea.forecast.forecastday[x].fcttext,
 			left: 30,
 			top:10
 		}));
