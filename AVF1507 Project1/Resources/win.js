@@ -1,6 +1,6 @@
 var mainWin = Ti.UI.createWindow({
 	backgroundColor: "#f0f8ff",
-	/*layout: vertical*/
+	layout: "vertical"
 });
 
 var title = Ti.UI.createLabel({
@@ -20,16 +20,16 @@ var buildGeoUi = function(lat, lng){
 	}));
 };
 
-var buildUi = function(forecast, location){
+var buildUi = function(current, location, forecast){
 	mainWin.add(Ti.UI.createLabel({
 		text: location.city + ", " + location.state + " (" + location.zip +")",
-		top: 40,
+		top: 10,
 		left: 40
 	}));
 	var currentView = Ti.UI.createView({
-		top: 80,
-		left:40,
-		width: 500,
+		top: 10,
+		left:20,
+		width: "90%",
 		height: 215,
 		backgroundColor: "#fff"
 	});
@@ -40,36 +40,47 @@ var buildUi = function(forecast, location){
 			left: 20
 		}));
 		currentView.add(Ti.UI.createLabel({
-			text: forecast.weather,
+			text: current.weather,
 			top: 110,
 			left: 60
 		}));
 		currentView.add(Ti.UI.createLabel({
-			text: "Temperature: " + forecast.temperature_string,
+			text: "Temperature: " + current.temperature_string,
 			top: 140,
 			left: 60
 		}));
 		currentView.add(Ti.UI.createImageView({
-			image: forecast.icon_url,
+			image: current.icon_url,
 			top: 60,
 			left: 90
 		}));
 		currentView.add(Ti.UI.createLabel({
-			text: "Wind: " + forecast.wind_string,
+			text: "Wind: " + current.wind_string,
 			top: 170,
 			left: 60
 		}));
-	/*mainWin.add(Ti.UI.createLabel({
-		text: forecast.conditions,
-		top: 60,
-		left: 20
-	}));
-	mainWin.add(Ti.UI.createLabel({
-		text: forecast.conditions,
-		top: 60,
-		left: 60
-	}));*/
-	mainWin.add(currentView);
+		
+	var forecastView = Ti.UI.createView({
+		top: 20,
+		left:20,
+		width: "90%",
+		height:320,
+		layout: "vertical",
+		backgroundColor: "#fff"
+	});
+	for (x = 0; x<3; x++){
+		forecastView.add(Ti.UI.createLabel({
+			text: forecast.forecastday[x].title,
+			left: 20,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: forecast.forecastday[x].fcttext,
+			left: 30,
+			top:10
+		}));
+		};
+	mainWin.add(currentView, forecastView);
 };
 mainWin.add(title);
 mainWin.open();
