@@ -1,92 +1,90 @@
 var mainWin = Ti.UI.createWindow({
-	backgroundColor: "#f0f8ff",
-	layout: "vertical"
+	backgroundColor: "#f0f8ff"
 });
+
+var scrollView = Titanium.UI.createScrollView({
+	contentHeight : "auto"
+});
+mainWin.add(scrollView);
 
 var title = Ti.UI.createLabel({
 	text: "Weather App",
-	top: "20dp"
+	top: 20
 });
-mainWin.add(title);
-
-
-var buildGeoUi = function(lat, lng){
-	console.log(lat, lng);
-	mainWin.add(Ti.UI.createLabel({
-		text:"Latitude: " + lat,
-		top:"50dp"
-	}));
-	mainWin.add(Ti.UI.createLabel({
-		text:"Longitude: " + lng,
-		top:"70dp"
-	}));
-};
-
+//mainWin.add(title);
+scrollView.add(title);
 var buildUi = function(netWea){
 	locLbl = Ti.UI.createLabel({
 		text: netWea.location.city + ", " + netWea.location.state + " (" + netWea.location.zip +")",
-		top: "10dp",
-		left: "40dp"
+		font: {fontSize: 25},
+		top: 40,
+		left: 40
 	});
-	mainWin.add(locLbl);
+	//mainWin.add(locLbl);
+	scrollView.add(locLbl);
 	var currentView = Ti.UI.createView({
-		top: "10dp",
-		left:"20dp",
+		top: 80,
+		left:20,
 		width: "90%",
-		height: "215dp",
+		height: 215,
 		backgroundColor: "#fff"
 	});
-	mainWin.add(currentView);
+	//mainWin.add(currentView);
+	scrollView.add(currentView);
 		var curLbl = Ti.UI.createLabel({
 			text: "Current Weather: ",
-			top: "20dp",
-			left: "20dp"
+			font: {fontSize: 20, fontWeight:"bold"},
+			top: 10,
+			left: 20
 		});
 		currentView.add(curLbl);
 		var weaLbl = Ti.UI.createLabel({
-			text: netWea.current.weather,
-			top: "110dp",
-			left: "60dp"
+			text: netWea.wea,
+			top: 110,
+			left: 60
 		});
 		currentView.add(weaLbl);
-		var tmpLbl = Ti.UI.createLabel({
-			text: "Temperature: " + netWea.current.temperature_string,
-			top: "140dp",
-			left: "60dp"
-		});
-		currentView.add(tmpLbl);
-		var weaIcon = Ti.UI.createImageView({
-			image: netWea.current.icon_url,
-			top: "60dp",
-			left: "90dp"
-		});
-		currentView.add(weaIcon);
-		var windLbl = Ti.UI.createLabel({
-			text: "Wind: " + netWea.current.wind_string,
-			top: "170dp",
-			left: "60dp"
-		});
-		currentView.add(windLbl);
+		currentView.add(Ti.UI.createLabel({
+			text: "Temperature: " + netWea.tmp,
+			top: 140,
+			left: 60
+		}));
+
+		currentView.add(Ti.UI.createImageView({
+			image: netWea.icon,
+			top: 45,
+			left: 90
+		}));
+		
+		currentView.add(Ti.UI.createLabel({
+			text: "Wind: " + netWea.wind,
+			top: 170,
+			left: 60
+		}));
+		
 	
 	var forecastView = Ti.UI.createView({
-		top: "20dp",
-		left:"20dp",
+		top: currentView.top + currentView.height + 10,
+		left:20,
 		width: "90%",
-		height:"320dp",
+		height:1500,
 		layout: "vertical",
 		backgroundColor: "#fff"
 	});
-	mainWin.add(forecastView);
-	for (x = 0; x<3; x++){
+	//mainWin.add(forecastView);
+	scrollView.add(forecastView);
+	
+	for (x = 0; x<14; x++){
 		forecastView.add(Ti.UI.createLabel({
 			text: netWea.forecast.forecastday[x].title,
-			left: "20dp",
-			top:"10dp"
+			font:{fontSize: 20, fontWeight: "bold"},
+			left: 20,
+			top:10
 		}));
 		forecastView.add(Ti.UI.createLabel({
 			text: netWea.forecast.forecastday[x].fcttext,
-			left: "30dp",
-			top:"10dp"
+			left: 30,
+			top:10
 		}));
 		};
 	
@@ -94,4 +92,3 @@ var buildUi = function(netWea){
 mainWin.open();
 
 exports.buildUi = buildUi;
-exports.buildGeoUi = buildGeoUi;

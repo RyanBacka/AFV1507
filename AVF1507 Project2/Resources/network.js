@@ -8,7 +8,10 @@ if (Ti.Network.online) {
 		console.log(b);
 		var json = JSON.parse(this.responseText);
 		var netWea = {
-		 current : json.current_observation,
+		 wea : json.current_observation.weather,
+		 tmp: json.current_observation.temperature_string,
+		 icon: json.current_observation.icon_url,
+		 wind: json.current_observation.wind_string,
 		 location : json.location,
 		 forecast : json.forecast.txt_forecast
 		 };
