@@ -1,0 +1,300 @@
+var mainWin = Ti.UI.createWindow({
+	backgroundColor: "#f0f8ff"
+});
+
+var scrollView = Titanium.UI.createScrollView({
+	contentHeight : "auto"
+});
+mainWin.add(scrollView);
+
+var title = Ti.UI.createLabel({
+	text: "Weather App",
+	top: 20
+});
+scrollView.add(title);
+
+
+var buildUiAct = function(tblData){
+	locLbl = Ti.UI.createLabel({
+		text: tblData[5].netWea + ", " + TblData[6].netWea + " (" + tblData[7].netWea +")",
+		font: {fontSize: 25},
+		top: 40,
+		left: 40
+	});
+	scrollView.add(locLbl);
+	var currentView = Ti.UI.createView({
+		top: 80,
+		left:20,
+		width: "90%",
+		height: 215,
+		backgroundColor: "#fff"
+	});
+	scrollView.add(currentView);
+		var curLbl = Ti.UI.createLabel({
+			text: "Current Weather: ",
+			font: {fontSize: 20, fontWeight:"bold"},
+			top: 10,
+			left: 20
+		});
+		currentView.add(curLbl);
+		var weaLbl = Ti.UI.createLabel({
+			text: tblData[1].netWea,
+			top: 110,
+			left: 60
+		});
+		currentView.add(weaLbl);
+		currentView.add(Ti.UI.createLabel({
+			text: "Temperature: " + tblData[2].netWea,
+			top: 140,
+			left: 60
+		}));
+
+		currentView.add(Ti.UI.createImageView({
+			image: tblData[3].netWea,
+			top: 45,
+			left: 90
+		}));
+		
+		currentView.add(Ti.UI.createLabel({
+			text: "Wind: " + tblData[4].netWea,
+			top: 170,
+			left: 60
+		}));
+		
+	
+	var forecastView = Ti.UI.createView({
+		top: currentView.top + currentView.height + 10,
+		left:20,
+		width: "90%",
+		height:2150,
+		layout: "vertical",
+		backgroundColor: "#fff"
+	});
+	scrollView.add(forecastView);
+	
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.title1,
+			font:{fontSize: 20, fontWeight: "bold"},
+			left: 20,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.text1,
+			left: 30,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.title2,
+			font:{fontSize: 20, fontWeight: "bold"},
+			left: 20,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.text2,
+			left: 30,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.title3,
+			font:{fontSize: 20, fontWeight: "bold"},
+			left: 20,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.text3,
+			left: 30,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.title4,
+			font:{fontSize: 20, fontWeight: "bold"},
+			left: 20,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.text4,
+			left: 30,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.title5,
+			font:{fontSize: 20, fontWeight: "bold"},
+			left: 20,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.text5,
+			left: 30,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.title6,
+			font:{fontSize: 20, fontWeight: "bold"},
+			left: 20,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.text6,
+			left: 30,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.title7,
+			font:{fontSize: 20, fontWeight: "bold"},
+			left: 20,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.text7,
+			left: 30,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.title8,
+			font:{fontSize: 20, fontWeight: "bold"},
+			left: 20,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.text8,
+			left: 30,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.title9,
+			font:{fontSize: 20, fontWeight: "bold"},
+			left: 20,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.text9,
+			left: 30,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.title10,
+			font:{fontSize: 20, fontWeight: "bold"},
+			left: 20,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.text10,
+			left: 30,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.title11,
+			font:{fontSize: 20, fontWeight: "bold"},
+			left: 20,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.text11,
+			left: 30,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.title12,
+			font:{fontSize: 20, fontWeight: "bold"},
+			left: 20,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.text12,
+			left: 30,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.title13,
+			font:{fontSize: 20, fontWeight: "bold"},
+			left: 20,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.text13,
+			left: 30,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.title14,
+			font:{fontSize: 20, fontWeight: "bold"},
+			left: 20,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.text14,
+			left: 30,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.title15,
+			font:{fontSize: 20, fontWeight: "bold"},
+			left: 20,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.text15,
+			left: 30,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.title16,
+			font:{fontSize: 20, fontWeight: "bold"},
+			left: 20,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.text16,
+			left: 30,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.title17,
+			font:{fontSize: 20, fontWeight: "bold"},
+			left: 20,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.text17,
+			left: 30,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.title18,
+			font:{fontSize: 20, fontWeight: "bold"},
+			left: 20,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.text18,
+			left: 30,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.title19,
+			font:{fontSize: 20, fontWeight: "bold"},
+			left: 20,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.text19,
+			left: 30,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.title20,
+			font:{fontSize: 20, fontWeight: "bold"},
+			left: 20,
+			top:10
+		}));
+		forecastView.add(Ti.UI.createLabel({
+			text: netWea.text20,
+			left: 30,
+			top:10
+		}));
+	
+};
+
+mainWin.open();
+
+exports.buildUiAct = buildUiAct;
