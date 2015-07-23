@@ -15,7 +15,7 @@ var readDb = function(){
 	};
 	rows.close();
 	db.close();
-	ui.buildUiAct(tblData);
+	ui.buildUi(tblData);
 };
 
 exports.readDb = readDb;	

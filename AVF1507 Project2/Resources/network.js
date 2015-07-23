@@ -1,7 +1,7 @@
 var netFnc = function(lat, lng){
 var geo = require("geo");
 var read = require("read");
-var url = "http://api.wunderground.com/api/44f4f693e570c8c6/geolookup/conditions/forecast10day/q/" + 15216 +".json"; 
+var url = "http://api.wunderground.com/api/44f4f693e570c8c6/geolookup/conditions/forecast10day/q/" + lat +","+lng +".json"; 
 console.log(url);
 if (Ti.Network.online) {
 	var getData = Ti.Network.createHTTPClient();
@@ -111,7 +111,7 @@ if (Ti.Network.online) {
 		db.close();
 		read.readDb();
 		
-		//ui.buildUiAct(netWea);
+		
 	};
 	getData.open("GET", url);
 	getData.send();

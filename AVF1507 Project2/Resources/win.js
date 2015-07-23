@@ -14,7 +14,7 @@ var title = Ti.UI.createLabel({
 scrollView.add(title);
 
 
-var buildUiAct = function(tblData){
+var buildUi = function(tblData){
 	locLbl = Ti.UI.createLabel({
 		text: tblData[4].netWea + ", " + tblData[5].netWea + " (" + tblData[6].netWea +")",
 		font: {fontSize: 25},
@@ -297,4 +297,4 @@ var buildUiAct = function(tblData){
 
 mainWin.open();
 
-exports.buildUiAct = buildUiAct;
+exports.buildUi = buildUi;
