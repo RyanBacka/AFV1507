@@ -2,7 +2,9 @@
 AVF1507\ Project1\:launchMode=run
 AVF1507\ Project1\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.3DB3DC56-165F-44C7-87B2-EA7CCE465607
 AVF1507\ Project2\:launchMode=run
-AVF1507\ Project2\:launchShortcut=com.appcelerator.titanium.mobile.ui.android.simulator.launchShortcut.titanium_1_WVGA800
+AVF1507\ Project2\:launchShortcut=com.appcelerator.titanium.mobile.ui.ios.simulator.iphone.launchShortcut.3DB3DC56-165F-44C7-87B2-EA7CCE465607
+AVF1507\ Project3\:launchMode=run
+AVF1507\ Project3\:launchShortcut=com.appcelerator.titanium.mobile.ui.android.simulator.launchShortcut.Samsung Galaxy S5 - 4.4.4 - API 19 - 1080x1920
 LAST_LAUNCH_TIMESTAMP=1437251648538
 eclipse.preferences.version=1
 preference.show.console.onError=false

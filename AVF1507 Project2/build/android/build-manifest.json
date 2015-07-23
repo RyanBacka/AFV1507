@@ -28,5 +28,6 @@
 	"activitiesHash": "d41d8cd98f00b204e9800998ecf8427e",
 	"servicesHash": "d41d8cd98f00b204e9800998ecf8427e",
 	"jssFilesHash": "d41d8cd98f00b204e9800998ecf8427e",
-	"jarLibHash": "37b131a0e83f851d3d7f5d9f37036c63"
+	"jarLibHash": "37b131a0e83f851d3d7f5d9f37036c63",
+	"liveview": true
 }
