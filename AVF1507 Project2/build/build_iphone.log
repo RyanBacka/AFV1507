@@ -1,5 +1,5 @@
 
-Thu Jul 23 2015 12:54:38 GMT-0400 (EDT)
+Thu Jul 23 2015 14:14:16 GMT-0400 (EDT)
 
 Operating System
   Name                        = Mac OS X
@@ -21,7 +21,7 @@ Titanium SDK
   Target Platform             = iphone
 
 Command
-  /usr/local/bin/node /Users/ryankbacka/.appcelerator/install/4.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 4.1.0.GA --project-dir /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project2 --target simulator --ios-version 8.4 --device-family universal --deploy-type development --sim-type iphone --sim-version 8.4 --device-id 3DB3DC56-165F-44C7-87B2-EA7CCE465607 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49967 --plugin-paths /Users/ryankbacka/.appcelerator/install/4.1.0/package/node_modules --config-file /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/build-1437670475375.json --no-banner
+  /usr/local/bin/node /Users/ryankbacka/.appcelerator/install/4.1.0/package/node_modules/appc-cli-titanium/node_modules/titanium/bin/titanium build --platform ios --log-level trace --sdk 4.1.0.GA --project-dir /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project2 --target simulator --ios-version 8.4 --device-family universal --deploy-type development --sim-type iphone --sim-version 8.4 --device-id 161A768C-1479-4EC4-A64C-0ADC94143CF3 --skip-js-minify --no-colors --no-progress-bars --no-prompt --prompt-type socket-bundle --prompt-port 49967 --plugin-paths /Users/ryankbacka/.appcelerator/install/4.1.0/package/node_modules --config-file /var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T/build-1437675253752.json --no-banner
 
 [DEBUG]  Detecting modules in /Users/ryankbacka/Library/Application Support/Titanium/modules
 [DEBUG]  Detected android module: com.appcelerator.apm 1.1.1 @ /Users/ryankbacka/Library/Application Support/Titanium/modules/android/com.appcelerator.apm/1.1.1
@@ -49,8 +49,8 @@ Command
 [INFO]   Deploy type: development
 [INFO]   Building for target: simulator
 [INFO]   Building using iOS SDK: 8.4
-[INFO]   Building for iOS Simulator: iPhone 6
-[DEBUG]  UDID: 3DB3DC56-165F-44C7-87B2-EA7CCE465607
+[INFO]   Building for iOS Simulator: iPhone 5
+[DEBUG]  UDID: 161A768C-1479-4EC4-A64C-0ADC94143CF3
 [DEBUG]  Simulator type: iphone
 [DEBUG]  Simulator version: 8.4
 [INFO]   Building for device family: universal
@@ -91,22 +91,18 @@ Command
 [INFO]   Processing Titanium namespace resources
 [DEBUG]  Copying /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/iphone/modules/ui/images => /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project2/build/iphone/build/Debug-iphonesimulator/AVF1507 Project2.app/modules/ui/images
 [INFO]   Skipping xcodebuild
-[INFO]   Finished building the application in 245ms
+[INFO]   Finished building the application in 251ms
 [INFO]   Launching iOS Simulator
-[DEBUG]  [ioslib] Removing old log file: /Users/ryankbacka/Library/Developer/CoreSimulator/Devices/3DB3DC56-165F-44C7-87B2-EA7CCE465607/data/Containers/Data/Application/82D6E66D-2EDB-4B7B-99D7-E6C458AC7B11/Documents/a7375c83-c6cd-43ff-9bbb-906de22fe4ab.log
-[DEBUG]  [ioslib] Executing: /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/node_modules/ioslib/lib/ios-sim "launch" "/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project2/build/iphone/build/Debug-iphonesimulator/AVF1507 Project2.app" "--verbose" "--xcode-dir" "/Applications/Xcode.app/Contents/Developer" "--udid" "3DB3DC56-165F-44C7-87B2-EA7CCE465607" "--timeout" "180"
+[DEBUG]  [ioslib] Executing: /Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/node_modules/ioslib/lib/ios-sim "launch" "/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project2/build/iphone/build/Debug-iphonesimulator/AVF1507 Project2.app" "--verbose" "--xcode-dir" "/Applications/Xcode.app/Contents/Developer" "--udid" "161A768C-1479-4EC4-A64C-0ADC94143CF3" "--timeout" "180"
 [DEBUG]  [ioslib] Executing: osascript "/Users/ryankbacka/Library/Application Support/Titanium/mobilesdk/osx/4.1.0.GA/node_modules/ioslib/lib/iphone_sim_activate.scpt" "/Applications/Xcode.app/Contents/Developer/Applications/iOS Simulator.app"
-[DEBUG]  [ioslib] [ios-sim] [DEBUG] App Spec: <DTiPhoneSimulatorApplicationSpecifier 0x7fbec861f280> specified by app path /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project2/build/iphone/build/Debug-iphonesimulator/AVF1507 Project2.app
-[DEBUG]  [ioslib] [ios-sim] [DEBUG] SDK Root: <DTiPhoneSimulatorSystemRoot 0x7fbec8437fa0> path=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk
-[DEBUG]  [ioslib] [ios-sim] [DEBUG] Creating named pipe at `/var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T//ios-sim-stderr-pipe-1437670478'
-[DEBUG]  [ioslib] [ios-sim] [DEBUG] Creating named pipe at `/var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T//ios-sim-stdout-pipe-1437670478'
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] App Spec: <DTiPhoneSimulatorApplicationSpecifier 0x7fd233d061a0> specified by app path /Users/ryankbacka/Desktop/AVF1507/AVF1507 Project2/build/iphone/build/Debug-iphonesimulator/AVF1507 Project2.app
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] SDK Root: <DTiPhoneSimulatorSystemRoot 0x7fd233f222b0> path=/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator.sdk
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Creating named pipe at `/var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T//ios-sim-stderr-pipe-1437675257'
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Creating named pipe at `/var/folders/zg/z_7nyy1d0jz6txnlygz_yzjw0000gn/T//ios-sim-stdout-pipe-1437675257'
 [DEBUG]  [ioslib] [ios-sim] [DEBUG] using device family iphone
-[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing C8A72580-ADAF-47F6-A2D3-F77DD07B6B8F == 3DB3DC56-165F-44C7-87B2-EA7CCE465607
-[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing 161A768C-1479-4EC4-A64C-0ADC94143CF3 == 3DB3DC56-165F-44C7-87B2-EA7CCE465607
-[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing B7331FE7-1222-486F-95C0-AC5BD73BA058 == 3DB3DC56-165F-44C7-87B2-EA7CCE465607
-[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing 0C207E7A-7810-4A48-9A7B-AC8A61BB3E8E == 3DB3DC56-165F-44C7-87B2-EA7CCE465607
-[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing 3DB3DC56-165F-44C7-87B2-EA7CCE465607 == 3DB3DC56-165F-44C7-87B2-EA7CCE465607
-[DEBUG]  [ioslib] [ios-sim] [DEBUG] set device to : iPhone 6
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing C8A72580-ADAF-47F6-A2D3-F77DD07B6B8F == 161A768C-1479-4EC4-A64C-0ADC94143CF3
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] Comparing 161A768C-1479-4EC4-A64C-0ADC94143CF3 == 161A768C-1479-4EC4-A64C-0ADC94143CF3
+[DEBUG]  [ioslib] [ios-sim] [DEBUG] set device to : iPhone 5
 [DEBUG]  [ioslib] [ios-sim] [DEBUG] Session started
-[DEBUG]  [ioslib] Found application log file: /Users/ryankbacka/Library/Developer/CoreSimulator/Devices/3DB3DC56-165F-44C7-87B2-EA7CCE465607/data/Containers/Data/Application/DC318DE9-E166-4E5F-9E11-27FD5328C584/Documents/a7375c83-c6cd-43ff-9bbb-906de22fe4ab.log
-[INFO]   Project built successfully in 5s 165ms
+[DEBUG]  [ioslib] Found application log file: /Users/ryankbacka/Library/Developer/CoreSimulator/Devices/161A768C-1479-4EC4-A64C-0ADC94143CF3/data/Containers/Data/Application/610C170E-27B0-450C-9253-E43F28D15D03/Documents/a7375c83-c6cd-43ff-9bbb-906de22fe4ab.log
+[INFO]   Project built successfully in 9s 35ms

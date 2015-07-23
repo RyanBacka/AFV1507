@@ -1,12 +1,18 @@
 var net = require("network");
-var getGeo =  function() {
+var getGeo = function() {
 	console.log("Geo Module");
 	Ti.Geolocation.purpose = "Your location is needed to get your weather forecast.";
-	Ti.Geolocation.getCurrentPosition(function(a){
-		var lat = a.coords.latitude;
-		var lng = a.coords.longitude;
+	if (Ti.Platform.Android) {
+		var lat = 37.78583526611328;
+		var lng = -122.4064178466797;
 		net.netFnc(lat, lng);
-	});	
+	} else {
+		Ti.Geolocation.getCurrentPosition(function(a) {
+			var lat = a.coords.latitude;
+			var lng = a.coords.longitude;
+			net.netFnc(lat, lng);
+		});
+	}
 };
 
-exports.getGeo = getGeo;
+exports.getGeo = getGeo; 
