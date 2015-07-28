@@ -1,19 +1,18 @@
 var netFnc = function(lat, lng){
 var geo = require("geo");
 var read = require("read");
-var url = "http://api.eventful.com/json/events/search?app_key=q2m5J4Gcvzq3Q88F&location="+ lat +"," + lng + "&within=20&units=miles&date=thismonth&c=music.json"; 
+var url = "http://api.eventful.com/json/events/search?app_key=q2m5J4Gcvzq3Q88F&location="+ lat +"," + lng + "&within=20&units=miles&date=thismonth&c=music"; 
 console.log(url);
 if (Ti.Network.online) {
 	var getData = Ti.Network.createHTTPClient();
 	getData.onload = function(b){
-		console.log(b);
 		var json = JSON.parse(this.responseText);
 		var event = {
-			event1:json.events.event[0].title,
-			venueNm1:json.events.event[0].venue_name,
-			venueAd1:json.events.event[0].venue_address,
-			city1:json.events.event[0].city_name,
-			state1:json.events.event[0].region_abbr,
+			event1: json.events.event[0].title,
+			venueNm1: json.events.event[0].venue_name,
+			venueAd1: json.events.event[0].venue_address,
+			city1: json.events.event[0].city_name,
+			state1: json.events.event[0].region_abbr,
 			zip1:json.events.event[0].postal_code,
 			start1:json.events.event[0].start_time,
 			event2:json.events.event[1].title,
@@ -80,7 +79,6 @@ if (Ti.Network.online) {
 			zip10:json.events.event[9].postal_code,
 			start10:json.events.event[9].start_time,
 		};
-		 
 		 
 		 var db = Ti.Database.open("eventDB");
 			db.execute('CREATE TABLE IF NOT EXISTS eventTbl (id INTEGER PRIMARY KEY, event TEXT)');

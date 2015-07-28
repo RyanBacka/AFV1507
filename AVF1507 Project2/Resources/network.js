@@ -8,6 +8,7 @@ if (Ti.Network.online) {
 	getData.onload = function(b){
 		console.log(b);
 		var json = JSON.parse(this.responseText);
+		console.log(json);
 		var netWea = {
 		 wea : json.current_observation.weather,
 		 tmp: json.current_observation.temperature_string,

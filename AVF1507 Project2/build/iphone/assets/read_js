@@ -1,1 +1,0 @@
-var readDb=function(){var e=[],t=0,a=Ti.Database.open("weatherDB");a.execute("CREATE TABLE IF NOT EXISTS weatherTbl (id INTEGER PRIMARY KEY, netWea TEXT)");for(var r=a.execute("SELECT id, netWea FROM weatherTbl");r.isValidRow();)e.push({id:r.fieldByName("id"),netWea:r.fieldByName("netWea")}),console.log(e[t]),t++,r.next();r.close(),a.close(),ui.buildUi(e)};exports.readDb=readDb;

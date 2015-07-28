@@ -3,8 +3,8 @@ var getGeo = function() {
 	console.log("Geo Module");
 	Ti.Geolocation.purpose = "Your location is needed to get your weather forecast.";
 	if (Ti.Platform.Android) {
-		var lat = 65.9667;
-		var lng = -18.5333;
+		var lat = 40.32269605586375;
+		var lng = -80.39488412439823;
 		net.netFnc(lat, lng);
 	} else {
 		Ti.Geolocation.getCurrentPosition(function(a){

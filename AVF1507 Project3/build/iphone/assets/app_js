@@ -1,1 +1,0 @@
-var ui=require("win"),geo=require("geo");geo.getGeo();

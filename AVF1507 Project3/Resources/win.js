@@ -18,46 +18,51 @@ var title = Ti.UI.createLabel({
 scrollView.add(title);
 
 var buildUi = function(tblData){
-	for (x=0; x<10; x++){
+	console.log(JSON.stringify(tblData));
+ var a=0;
+ for (x=0; x<10; x++){
+ 	
 	scrollView.add(Ti.UI.createLabel({
-		text: tblData.event1,
-		font: {fontSize: 25, fontWeight: "bold"},
+		text: tblData[a].netWea,
+		font: {fontSize: 30, fontWeight: "bold"},
 		color: "black",
-		top: 2,
+		top: 10,
 		left: 40
 	}));
+	a++;
 	scrollView.add(Ti.UI.createLabel({
-		text: tblData.venueNm1,
-		font: {fontSize: 20},
+		text: tblData[a].netWea,
+		font: {fontSize: 18},
 		color: "black",
-		top: 2,
-		left: 40
+		top: 5,
+		left: 60
 	}));
+	a++;
 	scrollView.add(Ti.UI.createLabel({
-		text: tblData.venueAd1,
+		text: tblData[a].netWea,
 		font: {fontSize: 14},
 		color: "black",
-		top:2,
-		left: 40
+		top:5,
+		left: 60
 	}));
+	a++;
 	scrollView.add(Ti.UI.createLabel({
-		text: tblData.city1 +", "+ tblData.state1 +" ("+tblData.zip1+ ")",
+		text: tblData[a++].netWea +", "+ tblData[a++].netWea +" ("+tblData[a++].netWea+ ")",
 		font: {fontSize: 14},
 		color: "black",
-		top: 2,
-		left: 40
+		top: 5,
+		left: 60
 	}));
+	a++;
 	scrollView.add(Ti.UI.createLabel({
-		text: tblData.start1,
-		font: {fontSize: 25},
+		text: tblData[a].netWea,
+		font: {fontSize: 14},
 		color: "black",
-		top: 2,
-		left: 40
+		top: 5,
+		left: 60
 	}));
 	
-	
-	
-		};
+};
 };
 
 mainWin.open();
