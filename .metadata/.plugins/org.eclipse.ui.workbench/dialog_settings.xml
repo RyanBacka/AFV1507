@@ -12,11 +12,26 @@
 		<list key="textEntries">
 		</list>
 	</section>
+	<section name="WorkbenchPreferenceDialogSettings">
+		<item value="-92" key="DIALOG_Y_ORIGIN"/>
+		<item value="-166" key="DIALOG_X_ORIGIN"/>
+	</section>
 	<section name="InstallationDialogSettings">
 		<item value="702" key="DIALOG_WIDTH"/>
 		<item value="-192" key="DIALOG_Y_ORIGIN"/>
 		<item value="-78" key="DIALOG_X_ORIGIN"/>
 		<item value="652" key="DIALOG_HEIGHT"/>
 		<item value="1|.Helvetica Neue DeskInterface|11.0|0|COCOA|1|.HelveticaNeueDeskInterface-Regular" key="DIALOG_FONT_NAME"/>
+	</section>
+	<section name="ImportExportAction">
+		<item value="com.appcelerator.titanium.ui.import.wizard" key="ImportExportPage.STORE_SELECTED_IMPORT_WIZARD_ID"/>
+		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
+			<item value="com.appcelerator.titanium.import.wizard.category"/>
+			<item value="com.aptana.git.ui.clone.category"/>
+			<item value="org.eclipse.equinox.p2.category"/>
+			<item value="org.eclipse.debug.ui"/>
+			<item value="com.aptana.ui.wizards.import.category"/>
+			<item value="org.eclipse.team.ui.importWizards"/>
+		</list>
 	</section>
 </section>

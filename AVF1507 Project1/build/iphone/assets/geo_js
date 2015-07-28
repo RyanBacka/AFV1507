@@ -1,0 +1,1 @@
+var net=require("network"),getGeo=function(){console.log("Geo Module"),Ti.Geolocation.purpose="Your location is needed to get your weather forecast.",Ti.Geolocation.getCurrentPosition(function(o){console.log(o);var e=o.coords.latitude,t=o.coords.longitude;console.log(e,t),net.netFnc(e,t)})};exports.getGeo=getGeo;

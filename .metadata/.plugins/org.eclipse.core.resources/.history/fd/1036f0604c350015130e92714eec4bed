@@ -1,0 +1,64 @@
+var mainWin = Ti.UI.createWindow({
+	backgroundColor: "#f0f8ff",
+	layout: "vertical"
+});
+
+var scrollView = Titanium.UI.createScrollView({
+	contentHeight : "auto",
+	layout: "vertical"
+});
+mainWin.add(scrollView);
+
+var title = Ti.UI.createLabel({
+	text: "Events this Month",
+	color: "black",
+	top: 20
+});
+scrollView.add(title);
+
+var buildUi = function(tblData){
+	for (x=0; x<10; x++){
+	scrollView.add(Ti.UI.createLabel({
+		text: tblData[x].event,
+		font: {fontSize: 25},
+		color: "black",
+		top: 10,
+		left: 40
+	}));
+	scrollView.add(Ti.UI.createLabel({
+		text: tblData[x].venueNm,
+		font: {fontSize: 25},
+		color: "black",
+		top: 10,
+		left: 40
+	}));
+	scrollView.add(Ti.UI.createLabel({
+		text: tblData[x].venueAd,
+		font: {fontSize: 25},
+		color: "black",
+		top: 10,
+		left: 40
+	}));
+	scrollView.add(Ti.UI.createLabel({
+		text: tblData[x].city +", "+ tblData[x].state +" ("+tblData[x].zip+ ")",
+		font: {fontSize: 25},
+		color: "black",
+		top: 10,
+		left: 40
+	}));
+	scrollView.add(Ti.UI.createLabel({
+		text: tblData[x].start,
+		font: {fontSize: 25},
+		color: "black",
+		top: 10,
+		left: 40
+	}));
+	
+	
+	
+		};
+};
+
+mainWin.open();
+
+exports.buildUi = buildUi;

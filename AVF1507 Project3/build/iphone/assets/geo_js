@@ -1,0 +1,1 @@
+var net=require("network"),getGeo=function(){if(console.log("Geo Module"),Ti.Geolocation.purpose="Your location is needed to get your weather forecast.",Ti.Platform.Android){var e=65.9667,o=-18.5333;net.netFnc(e,o)}else Ti.Geolocation.getCurrentPosition(function(e){console.log(e);var o=e.coords.latitude,t=e.coords.longitude;net.netFnc(o,t)})};exports.getGeo=getGeo;

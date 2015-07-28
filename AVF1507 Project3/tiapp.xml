@@ -5,7 +5,7 @@
     <version>1.0</version>
     <publisher>ryankbacka</publisher>
     <url>http://fullsail.com</url>
-    <description/>
+    <description>undefined</description>
     <copyright>2015 by ryankbacka</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
@@ -16,7 +16,7 @@
     <ios>
         <plist>
             <dict>
-            	<key>NSLocationAlwaysUsageDescription</key>
+                <key>NSLocationAlwaysUsageDescription</key>
                 <array>
                     <string>Please allow the app to access your current location.</string>
                 </array>
@@ -51,7 +51,9 @@
         </splash>
         <theme>default</theme>
     </mobileweb>
-    <modules/>
+    <modules>
+    	<module platform="commonjs">ti.cloud</module>
+    </modules>
     <deployment-targets>
         <target device="android">true</target>
         <target device="ipad">true</target>
