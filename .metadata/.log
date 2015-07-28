@@ -33583,3 +33583,12 @@ org.eclipse.core.runtime.CoreException: +---------------------------------------
 +---------------------------------------------------------------------------------------+
 
 {"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+
+!ENTRY com.aptana.git.core 4 1 2015-07-28 16:50:50.351
+!MESSAGE Errors occurred while refreshing git index
+!SUBENTRY 1 com.aptana.git.core 4 0 2015-07-28 16:50:50.352
+!MESSAGE Failed to acquire lock for git repository.
+!SUBENTRY 1 com.aptana.git.core 4 0 2015-07-28 16:50:50.352
+!MESSAGE Failed to acquire lock for git repository.
+!SUBENTRY 1 com.aptana.git.core 4 0 2015-07-28 16:50:50.352
+!MESSAGE Failed to acquire lock for git repository.
