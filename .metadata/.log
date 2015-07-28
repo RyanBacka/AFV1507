@@ -33592,3 +33592,43 @@ org.eclipse.core.runtime.CoreException: +---------------------------------------
 !MESSAGE Failed to acquire lock for git repository.
 !SUBENTRY 1 com.aptana.git.core 4 0 2015-07-28 16:50:50.352
 !MESSAGE Failed to acquire lock for git repository.
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-28 16:52:54.146
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  API Request: appOrganization, params: b1e19127-ae79-4d33-9aaa-7df89fa3bbbf returned with unexpected response {"success":false,"description":"+---------------------------------------------------------------------------------------+\n+ This is a Developer trial account. You may use this software for evaluation purposes. +\n+ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +\n+---------------------------------------------------------------------------------------+\n\n{\"org_id\":100048181,\"org_name\":\"rkbackafullsailedu\",\"current_user_belongs_to_organization\":true}"}
+
+!ENTRY com.appcelerator.titanium.360.core 4 0 2015-07-28 16:52:54.146
+!MESSAGE (Build 4.1.0.201507071122) [ERROR]  +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+!STACK 1
+org.eclipse.core.runtime.CoreException: +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.handleResponse(Titanium360Manager.java:326)
+	at com.appcelerator.titanium360.internal.core.Titanium360Manager.callAPI(Titanium360Manager.java:268)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.doGetOrganization(ThreeSixtyProject.java:155)
+	at com.appcelerator.titanium360.internal.core.ThreeSixtyProject.getOrganization(ThreeSixtyProject.java:129)
+	at com.appcelerator.titanium360.ui.launch.contributor.VPCDeployTypeLaunchValidator.validate(VPCDeployTypeLaunchValidator.java:63)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.validateLaunchContributors(NodeAppcCLI.java:635)
+	at com.appcelerator.titanium.core.internal.cli.NodeAppcCLI.build(NodeAppcCLI.java:620)
+	at com.appcelerator.titanium.android.core.launching.AndroidNodeJSCommandsHelper.build(AndroidNodeJSCommandsHelper.java:193)
+	at com.appcelerator.titanium.android.core.launching.AndroidNodeJSCommandsHelper.runOnSimulator(AndroidNodeJSCommandsHelper.java:127)
+	at com.appcelerator.titanium.android.core.launching.AndroidSimulatorLaunchConfigurationDelegate.launch(AndroidSimulatorLaunchConfigurationDelegate.java:236)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:883)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:739)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:1039)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1256)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 com.appcelerator.titanium.360.core 4 0 2015-07-28 16:52:54.146
+!MESSAGE +---------------------------------------------------------------------------------------+
++ This is a Developer trial account. You may use this software for evaluation purposes. +
++ Once you are ready to go to production, upgrade at https://billing.appcelerator.com   +
++---------------------------------------------------------------------------------------+
+
+{"org_id":100048181,"org_name":"rkbackafullsailedu","current_user_belongs_to_organization":true}

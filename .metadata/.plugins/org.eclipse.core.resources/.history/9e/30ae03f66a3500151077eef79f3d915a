@@ -53,6 +53,7 @@ var buildUi = function(tblData){
 		top: 5,
 		left: 60
 	}));
+	a--;
 	scrollView.add(Ti.UI.createLabel({
 		text: tblData[a].netWea,
 		font: {fontSize: 14},
@@ -60,7 +61,7 @@ var buildUi = function(tblData){
 		top: 5,
 		left: 60
 	}));
-	a++;
+	
 };
 };
 
