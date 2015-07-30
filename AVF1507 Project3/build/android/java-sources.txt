@@ -1,7 +1,0 @@
-"/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project3/build/android/gen/android/support/v7/appcompat/R.java"
-"/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project3/build/android/gen/com/fullsail/AVF1507Project3/ApplicationStylesheet.java"
-"/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project3/build/android/gen/com/fullsail/AVF1507Project3/Avf1507Project3Activity.java"
-"/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project3/build/android/gen/com/fullsail/AVF1507Project3/Avf1507Project3AppInfo.java"
-"/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project3/build/android/gen/com/fullsail/AVF1507Project3/Avf1507Project3Application.java"
-"/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project3/build/android/gen/com/fullsail/AVF1507Project3/R.java"
-"/Users/ryankbacka/Desktop/AVF1507/AVF1507 Project3/build/android/gen/ti/modules/titanium/ui/R.java"
