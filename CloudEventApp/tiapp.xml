@@ -4,8 +4,8 @@
     <name>CloudEventApp</name>
     <version>1.0</version>
     <publisher>ryankbacka</publisher>
-    <url>http://</url>
-    <description/>
+    <url>http://www.fullsail.edu</url>
+    <description>undefined</description>
     <copyright>2015 by ryankbacka</copyright>
     <icon>appicon.png</icon>
     <fullscreen>false</fullscreen>
@@ -16,7 +16,7 @@
     <ios>
         <plist>
             <dict>
-            	<key>NSLocationAlwaysUsageDescription</key>
+                <key>NSLocationAlwaysUsageDescription</key>
                 <array>
                     <string>Please allow the app to access your current location.</string>
                 </array>

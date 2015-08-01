@@ -1,1 +1,0 @@
-var Arrow=require("arrow"),server=new Arrow;server.on("starting",function(){var r=new Arrow.API({group:"foo",path:"/api/foo/",method:"GET",description:"Get all the Foo objects",model:"foo",action:function(r,e,o){r.model.findAll(function(r,e){r?o(r):o(null,e)})}},server.config,server);server.add(r),r.bind(server.app)}),server.start();

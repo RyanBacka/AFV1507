@@ -1,1 +1,0 @@
-var readDb=function(){var e=[],t=0,n=Ti.Database.open("eventDB");n.execute("CREATE TABLE IF NOT EXISTS eventTbl (id INTEGER PRIMARY KEY, event TEXT)");for(var v=n.execute("SELECT id, event FROM eventTbl");v.isValidRow();)e.push({id:v.fieldByName("id"),netWea:v.fieldByName("event")}),console.log(e[t]),t++,v.next();v.close(),n.close(),ui.buildUi(e)};exports.readDb=readDb;
